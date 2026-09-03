@@ -40,6 +40,7 @@ nnoremap <space>T :action GotoSymbol<cr>
 nnoremap <space>a :action GotoAction<cr>
 nnoremap <space>b :action ToggleLineBreakpoint<cr>
 nnoremap <space>z :action ToggleDistractionFreeMode<cr>
+nnoremap <S-F> :action ReformatCode<cr>
 
 " code navigation
 nnoremap <space>] :action GotoImplementation<cr>
